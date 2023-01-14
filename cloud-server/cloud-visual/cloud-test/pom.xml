@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud-visual</artifactId>
+        <groupId>com.cloud</groupId>
+        <version>3.4.4</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <artifactId>cloud-test</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.cloud</groupId>
+            <artifactId>cloud-base-core</artifactId>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>cloud-test-shardingsphere</module>
+        <module>cloud-test-more</module>
+        <module>cloud-test-rabbitmq</module>
+        <module>cloud-test-seata</module>
+    </modules>
+</project>

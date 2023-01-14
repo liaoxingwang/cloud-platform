@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud-server</artifactId>
+        <groupId>com.cloud</groupId>
+        <version>3.4.4</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-visual</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- 微服务所需要的中间件 -->
+        <module>cloud-sentinel</module>
+        <module>cloud-monitor</module>
+        <module>cloud-xxljob</module>
+        <!-- 微服务测试示例-->
+        <module>cloud-test</module>
+    </modules>
+
+
+</project>
