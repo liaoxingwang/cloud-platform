@@ -148,7 +148,7 @@ spring:
     password: ''
 #mybatis plus 设置
 mybatis-plus:
-  mapper-locations: classpath*:org/cloud/modules/**/xml/*Mapper.xml
+  mapper-locations: classpath*:org/jeecg/modules/**/xml/*Mapper.xml
   global-config:
     # 关闭MP3.0自带的banner
     banner: false
@@ -164,7 +164,7 @@ mybatis-plus:
     call-setters-on-nulls: true
 #jeecg专用配置
 minidao:
-  base-package: org.cloud.modules.jmreport.*
+  base-package: org.jeecg.modules.jmreport.*
 jeecg:
   # 是否启用安全模式
   safeMode: false
