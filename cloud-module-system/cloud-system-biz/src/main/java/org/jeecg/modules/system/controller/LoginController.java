@@ -84,7 +84,7 @@ public class LoginController {
         String captcha = sysLoginModel.getCaptcha();
         if(captcha==null){
             result.error500("验证码无效");
-            return result;
+            //return result;
         }
         String lowerCaseCaptcha = captcha.toLowerCase();
         //update-begin-author:taoyan date:2022-9-13 for: VUEN-2245 【漏洞】发现新漏洞待处理20220906
